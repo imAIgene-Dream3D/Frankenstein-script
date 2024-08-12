@@ -1,9 +1,11 @@
+# The issue
+
+Imaris (Oxford instruments) is a widely used sofwtare for image analysis. recent version 10.10 released a pixel classifier to improve on object segmentation. However it only allows training the classifier on one file at a time, which limits a wide application of such classifier on different experiments.
 # Frankenstein script
 
-The Frankenstein script is intended to improve the pixel classifier training in Imaris software, from Oxford instruments
+The Frankenstein script allows to train a pixel classifier of Imaris software (Oxford instruments) on more then one file.
 
-
-This script takes timepoints from all the `.ims` files in a given directory, and generates a new file containing sections of every original file. The intention is to better train the pixel classifier as to avoid overfitting.
+This script takes timepoints from all the `.ims` files in a given directory, and generates a new file containing sections of every original file. 
 
 There is no need to edit the script. All parameters can be given in the terminal or in an executable (using Pyinstaller).
 
