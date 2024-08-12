@@ -9,6 +9,10 @@ This script takes timepoints from all the `.ims` files in a given directory, and
 
 There is no need to edit the script. All parameters can be given in the terminal or in an executable (using Pyinstaller).
 
+## How to cite this script
+If you find these extensions useful in your research, support our efforts by citing it as:
+- E. Rios-Jimenez, "Frankenstein script", imAIgenelab 2024. https://www.imaigene-lab.com/
+
 ## Input
 The input will be the directory in which the `.ims` files are located
 
@@ -29,3 +33,11 @@ To finish the conversion to .ims file, just upload it into the ImarisFileConvert
 - `ims_to_numpy()`: Converts an `.ims` file into numpy array, based on the `ims_channels_to_h5()` function in general_segmentation_functions.image_handling
 - `write_tiff()`: Converts a TIFF file from a numpy array. Provides names for the channels in Imaris (RS1, RS2, ...) and can receive voxel size dimension order information.
 - `ims_files_in_wd()`: Provides a list with all the `.ims` files in a given directory
+
+## Set-up & Requirements
+This pipeline was run using python v 3.11.9. The installation of additional packages is required to run the script:
+- `pyometiff` v 1.0.0
+- `h5py` v 3.11.0
+- `numpy` v 2.0.0
+
+
