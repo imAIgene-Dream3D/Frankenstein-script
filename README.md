@@ -18,9 +18,9 @@ The input will be the directory in which the `.ims` files are located
 
 ## Parameters
 The user will need to introduce the following parameters:
-- **Directory where the `.ims` files are located**. It will take all the .ims files in that directory)
-- **Number of timepoints in the output file.** The user will be informed of the total number of timepoints in the processed `.ims` files and decide the final length
-- **Voxel size (x, y, z)**. This information can be found in the properties of the original Imaris files (Ctrl + I/ Cmd + I in Imaris)
+- `working_directory` **Directory where the `.ims` files are located**. It will take all the .ims files in that directory)
+- `size` **Number of timepoints in the output file.** The user will be informed of the total number of timepoints in the processed `.ims` files and decide the final length
+- `x_vox, y_vox, z_vox` **Voxel size (x, y, z)**. This information can be found in the properties of the original Imaris files (Ctrl + I/ Cmd + I in Imaris)
 
 *Note that this script will only work if all the .ims files have the same number of channels and resolution (voxel size).*
 
