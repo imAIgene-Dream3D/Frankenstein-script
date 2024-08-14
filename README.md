@@ -35,7 +35,12 @@ To finish the conversion to .ims file, just upload it into the ImarisFileConvert
 - `ims_files_in_wd()`: Provides a list with all the `.ims` files in a given directory
 
 ## Set-up & Requirements
-The requirements are included in the `requirements.txt` file. You can run `pip install --no-cache-dir -r requirements.txt` on your environment to install the required packages
+The requirements are included in the `requirements.txt` file. You can run 
+```{python}
+pip install --no-cache-dir -r requirements.txt
+```
+on your environment to install the required packages.
+
 This pipeline was run using python v 3.11.9. The installation of additional packages is required to run the script:
 - `pyometiff` v 1.0.0
 - `h5py` v 3.11.0
