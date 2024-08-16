@@ -32,7 +32,7 @@ The output is a file called `frankenstein_file.tif`, in 5D TIF format, that will
 To finish the conversion to .ims file, just upload it into the ImarisFileConverter and click `Start all`.
 
 ## Docker image
-A docker image of the script is provided, with all the requirements met and ready to use. 
+A docker image of the script is provided, with all the requirements met and ready to use. [Click here to acces Docker hub](https://hub.docker.com/layers/erios12/frankenstein_script/1.0.0/images/sha256:2e3a3118d5422f7345202dbc1d4956b9b0e8345fb2325e6d3fdf8d4f6c06591d?uuid=F0C28C93-5A7A-4EB8-AFF3-B6DEB8B568A6)
 
 The use of this docker image requires the parameters to be set **before** the execution, in the `docker run` command. You can copy, adapt and paste this command into your CMD/Powershell/WSL/console once the docker image has been built. You must have the docker environment and paths installed.
 
