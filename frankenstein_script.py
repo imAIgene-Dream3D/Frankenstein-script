@@ -460,8 +460,6 @@ def main():
     # Frankenstein file parameters
     size = input("Please select the number of timepoints desired in your frankenstein file (200 recommended):")
     n_timepoints = int(size)//len(ims_files)
-    if n_timepoints < 10:
-        n_timepoints = 10
     print(f"{n_timepoints} timepoints will be randomly selected from every file")
     print(f"The resulting file will have {n_timepoints*len(ims_files)} timepoints ({n_timepoints} from each of the {len(ims_files)} '.ims' files)")
 
