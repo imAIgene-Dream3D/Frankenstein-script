@@ -38,7 +38,7 @@ The use of this docker image requires the parameters to be set **before** the ex
 
 **Example:**
 ```
-docker run --rm -v /c/Users/User/frankenstein_script/data:/app/data frankenstein_script:1.0.0 --size 200 --x_vox 0.5 --y_vox 0.5 --z_vox 1.0
+docker run --rm -v /c/Users/User/frankenstein_script/data:/app/data erios12/frankenstein_script:1.0.0 --size 200 --x_vox 0.5 --y_vox 0.5 --z_vox 1.0
 ```
 - Parameters:
   - `working_directory`: Provided through the `-v` option. Basically copies the working directory into the `/app/data` directory in the docker Virtual Machine, so you can work with tour data in Docker images.
