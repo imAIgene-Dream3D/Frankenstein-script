@@ -47,7 +47,7 @@ docker run --rm -v /c/Users/User/frankenstein_script/data:/app/data erios12/fran
 - `-rm` option is to delete the container once the execution is completed
 
 ## Walkthrough video
-We provide a walkthrough video for both the python script and the Docker implementation, to help resolve any issues. If you are having trouble, check the [Troubleshooting](Troubleshooting) section.
+We provide a walkthrough video for both the python script and the Docker implementation, to help resolve any issues. If you are having trouble, check the [Troubleshooting](#Troubleshooting) section.
 
 https://github.com/user-attachments/assets/8c05c645-8844-4579-88bd-821f1cf53289
 
