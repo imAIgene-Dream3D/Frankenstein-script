@@ -46,6 +46,12 @@ docker run --rm -v /c/Users/User/frankenstein_script/data:/app/data erios12/fran
   - `voxel_size`: provided using the `--x_vox`, `y_vox`, and `z_vox` parameter options (0.0 format)
 - `-rm` option is to delete the container once the execution is completed
 
+## Walkthrough video
+We provide a walkthrough video for both the python script and the Docker implementation, to help resolve any issues. If you are having trouble, check the [Troubleshooting](Troubleshooting) section.
+
+https://github.com/user-attachments/assets/8c05c645-8844-4579-88bd-821f1cf53289
+
+
 ## Built-in functions
 - `ims_to_numpy()`: Converts an `.ims` file into numpy array, based on the `ims_channels_to_h5()` function in general_segmentation_functions.image_handling
 - `write_tiff()`: Converts a TIFF file from a numpy array. Provides names for the channels in Imaris (RS1, RS2, ...) and can receive voxel size dimension order information.
